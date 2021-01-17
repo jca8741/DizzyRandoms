@@ -1,0 +1,349 @@
+/*--------Default CSS--------*/
+
+html {
+    height: 99%;
+}
+
+body {
+    background-color: rgb(18, 126, 126);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 99%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+header {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    z-index: 50;
+
+    background-color: rgb(179, 179, 179);
+    outline: 7px solid gray;
+    position: absolute;
+}
+
+footer {
+    background-color: rgb(179, 179, 179);
+    outline: 7px solid gray;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    bottom: 3%;
+    right: 4%;
+    left: 4%;
+}
+
+h1 {
+    font-size: 40pt;
+    padding: 2%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2 {
+    color: black;
+    font-family: 'VT323', monospace;
+    text-align: right;
+}
+
+
+h3 {
+    color: white;
+    margin-top: 0;
+    padding: 8px;
+    font-family: 'VT323', monospace;
+}
+
+h4 {
+    outline: 3px solid rgb(90, 90, 90);
+    background-color: rgb(202, 185, 185);
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    padding: 5px;
+    font-family: 'VT323', monospace;
+    height: 22px;
+}
+
+p {
+    font-size: 20pt;
+    padding: 2%;
+}
+
+img[src="images/start.png"] {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+img[src="images/noah1.jpg"] {
+    height: auto;
+    width: 100%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+img[src="images/noah2.jpg"] {
+    height: auto;
+    width: 80%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+img[src="images/noah3.jpg"] {
+    height: auto;
+    width: 100%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+img[src="images/noah4.jpg"] {
+    height: auto;
+    width: 100%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+img[src="images/noah5.jpg"] {
+    height: auto;
+    width: 100%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+img[src="images/noah6.jpg"] {
+    height: auto;
+    width: 100%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+img[src="images/noah7.jpg"] {
+    height: auto;
+    width: 100%;
+    outline: 10px solid rgb(150, 145, 145);
+    background-color: grey;
+}
+
+/*--------Class CSS--------*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    left: 5%;
+    height: 70vh;
+    outline: 5px solid rgb(90, 90, 90);
+    margin: 2%;
+    background-color: grey;
+    box-shadow: 30px 30px rgb(0, 0, 0, .5);
+}
+
+.taskbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 1%;
+}
+
+.containerheader {
+    background-color: rgb(10, 76, 114);
+    background: linear-gradient(90deg, rgba(217,3,0,1) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,1) 65%, rgba(107,255,119,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    background-color: rgba(0,212,255,1) 100%);;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dock {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 99%;
+}
+
+/*--------ID CSS--------*/
+
+#noah {
+    background-image: url(images/glitch3.gif);
+    mix-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center
+}
+#logo {
+    margin-left: 1%;
+}
+
+#links {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+#details {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    top: 35px;
+    height: 66vh;
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(236, 236, 236);
+    background-size: contain;
+}
+
+#picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 99%;
+    background-color: rgb(189, 186, 186);
+    outline: 7px solid rgb(66, 63, 63);
+    overflow: auto;
+}
+
+#picture2 {
+    display: none;
+}
+
+#videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 99%;
+    background-color: rgb(189, 186, 186);
+    outline: 7px solid rgb(66, 63, 63);
+    overflow: auto;
+}
+
+#info {
+    align-items: center;
+    top: 35px;
+    height: 65vh;
+    width: 50%;
+    height: 99%;
+    overflow: auto;
+    background-size: repeat;
+    outline: 7px solid rgb(66, 63, 63);
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: center;
+    top: 1px;
+    height: 62vh;
+    width: 98%;
+    padding: 1%;
+    overflow: auto;
+    background-color: rgb(236, 236, 236);
+    background-size: contain;
+}
+
+#image {
+    width: 30%;
+    padding: 3%;
+}
+
+@media screen and (max-width: 1000px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 6%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    h2 {
+        font-size: 15pt;
+    }
+
+    p {
+        font-size: 15pt;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 11%;
+        height: 54vh;
+        box-shadow: 20px 20px rgb(0, 0, 0, .5);
+    }
+
+    #details {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #picture {
+        display: none;
+    }
+
+    #picture2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #videos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 90%;
+        background-color: rgb(189, 186, 186);
+        outline: 7px solid rgb(66, 63, 63);
+        overflow: auto;
+    }
+
+    #info {
+        width: 100%;
+    }
+    
+    img[src="images/noah2.jpg"] {
+        height: auto;
+        width: 20%;
+        outline: 10px solid rgb(150, 145, 145);
+    }
+}
